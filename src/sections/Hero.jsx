@@ -1,6 +1,6 @@
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import { Button } from "@/components/Button";
-import { ArrowRight, ChevronDown, Gitlab, Linkedin} from "lucide-react";
+import { ArrowRight, ChevronDown, Gitlab, Linkedin, Download} from "lucide-react";
 
 const dots = [...Array(30)].map(() => ({
     left: `${Math.random() * 100}%`,
@@ -77,14 +77,17 @@ export const Hero = () =>{
                         <Button size="lg">
                             Contact Me<ArrowRight className="w-5 h-5"/>
                         </Button>
-                        <AnimatedBorderButton/>
+                        <AnimatedBorderButton>
+                            <Download className="w-5 h-5"/>
+                            Download CV
+                        </AnimatedBorderButton>
                     </div>
                     {/* Social Links */}
                     <div className="flex items-center gap-4 animate-fade-in animated-delay-400">
                         <span className="text-sm text-muted-foreground">Follow: </span>
                         {[
-                            {icon: Gitlab, href:"#"},
-                            {icon: Linkedin, href:"#"},
+                            {icon: Gitlab, href:"https://gitlab.com/e.srumbo"},
+                            {icon: Linkedin, href:"https://www.linkedin.com/in/samuelrumbo"},
                         ].map((social, idx) =>(
                             <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
                                 {<social.icon className="w-5 h-5"/>}
