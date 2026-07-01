@@ -72,7 +72,7 @@ export const Hero = () =>{
                     </div>
                     {/* CTAs */}
                     <div className="flex flex-wrap gap-4 animate-fade-in animated-delay-300">
-                        <Button size="lg">
+                        <Button size="lg" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
                             Contacto <ArrowRight className="w-5 h-5"/>
                         </Button>
                         <AnimatedBorderButton>

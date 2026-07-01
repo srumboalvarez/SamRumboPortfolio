@@ -42,7 +42,7 @@ export const Navbar = () =>{
 
             {/* CTA Button */}
             <div className="hidden md:block">
-                <Button className="cursor-pointer" size="sm">Contacto</Button>
+                <Button className="cursor-pointer" size="sm" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>Contacto</Button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -64,7 +64,10 @@ export const Navbar = () =>{
                             {link.label}
                         </a>
                     ))}
-                    <Button onClick={() => setIsMobileMenuOpen(false)}>Contact Me</Button>
+                    <Button onClick={() => {
+                        setIsMobileMenuOpen(false);
+                        document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+                    }}>Contact Me</Button>
                 </div>
             </div>
         )}

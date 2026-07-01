@@ -67,13 +67,15 @@ export const Experience = () =>{
             <div className="max-w-3xl mb-16">
                 <span className="text-secondary-foreground text-sm front-medium tracking-wider uppercase animate-fade-in">Curriculum</span>
                 <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-                    Aqui te presento 
+                    Aquí te presento 
                     <span className="font-serif italic font-normal text-white"> mi aventura personal</span>
                 </h2>
                 
                 <p className="text-muted-foreground animate-fade-in animation-delay-200">
-                    A timeline of my professional growth. From being a carpenter to a software developer. 
-                    Always eager to learn more and create better experiences.
+                    Mi crecimiento profesional ha sido un viaje lleno de experiencias diversas, 
+                    desde la carpintería hasta el desarrollo de software. Cada etapa ha contribuido a mi 
+                    desarrollo integral, permitiéndome adquirir habilidades técnicas y blandas que me han 
+                    preparado para enfrentar desafíos en el mundo laboral actual.
                 </p>
             </div>
 
