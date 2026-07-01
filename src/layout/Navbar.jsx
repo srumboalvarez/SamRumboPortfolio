@@ -3,9 +3,9 @@ import { Button } from "@/components/Button";
 import { useEffect, useState } from "react";
 
 const navLinks = [
-    {href: "#about", label: "About"},
-    {href: "#projects", label: "Projects"},
-    {href: "#experience", label: "Experience"},
+    {href: "#about", label: "Sobre mí"},
+    {href: "#projects", label: "Projectos"},
+    {href: "#experience", label: "Experiencia"},
 ];
 
 export const Navbar = () =>{
@@ -42,7 +42,7 @@ export const Navbar = () =>{
 
             {/* CTA Button */}
             <div className="hidden md:block">
-                <Button className="cursor-pointer" size="sm">Contact Me</Button>
+                <Button className="cursor-pointer" size="sm">Contacto</Button>
             </div>
 
             {/* Mobile Menu Button */}

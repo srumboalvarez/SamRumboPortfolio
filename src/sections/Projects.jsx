@@ -3,38 +3,38 @@ import { ArrowUpRight, Github } from "lucide-react"
 
 const projects = [
     {
-        title: "Titulo Placeholder",
-        description:"Descripcion Placeholder",
-        image: "/public/projects/placeholder.png",
-        tags: ["Tag 1", "Tag 2", "Tag 3"],
+        title: "Trueke (En Progreso)",
+        description: "Aplicación web de Trueke. Una web donde los usuarios pueden intercambiar productos y servicios sin necesidad de dinero.",
+        image: "/public/projects/trueke.jpg",
+        tags: ["React", "SpringBoot", "PostgreSQL"],
         link: "#",
         gitlab: "#",
     },
     {
-        title: "Titulo Placeholder",
-        description:"Descripcion Placeholder",
-        image: "/public/projects/placeholder2.png",
-        tags: ["Tag 1", "Tag 2", "Tag 3"],
+        title: "Mi Portafolio",
+        description: "Projecto de práctica para mi portafolio personal, utilizando React, Tailwind CSS y JavaScript.",
+        image: "/public/projects/myPortfolio.jpg",
+        tags: ["React", "Tailwind CSS"],
         link: "#",
         gitlab: "#",
     },
     {
-        title: "Titulo Placeholder",
-        description:"Descripcion Placeholder",
-        image: "/public/projects/placeholder3.png",
-        tags: ["Tag 1", "Tag 2", "Tag 3"],
-        link: "#",
-        gitlab: "#",
+        title: "BlogCafe",
+        description: "Projecto de práctica para de un blog sobre cafe para un negocio local, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
+        image: "/public/projects/blogCafe.jpg",
+        tags: ["HTML5", "CSS3", "JavaScript"],
+        link: "https://blogcafesrumbo.netlify.app/",
+        gitlab: "https://blogcafesrumbo.netlify.app/",
     },
     {
-        title: "Titulo Placeholder",
-        description:"Descripcion Placeholder",
-        image: "/public/projects/placeholder4.png",
-        tags: ["Tag 1", "Tag 2", "Tag 3"],
-        link: "#",
-        gitlab: "#",
+        title: "Techno & EDM Festival",
+        description: "Projecto de un festival de musica electronica, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
+        image: "/public/projects/technofestivalproject.jpg",
+        tags: ["HTML5", "CSS3", "JavaScript"],
+        link: "https://techandedmusicfest.netlify.app/",
+        gitlab: "https://techandedmusicfest.netlify.app/",
     },
-]
+];
 
 export const Projects = () =>{
     return( 
@@ -46,16 +46,16 @@ export const Projects = () =>{
                 {/* Section header */}
                 <div className="text-center mx-auto max-w-3xl mb-16">
                     <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-                        Featured work
+                        Mis Projectos
                     </span>
                     <h2  className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-                        Projects that
+                        Projectos que he desarrollado
                         <span className="font-serif italic font-normal text-white">
-                            {" "}
-                            make an impact
+                            {""}
+                            , mejorando cada día.
                         </span>
                     </h2>
-                    <p className="text-muted-foreground animate-fade-in animation-delay-200">A selection of my work, from how I started to real-world software solutions</p>
+                    <p className="text-muted-foreground animate-fade-in animation-delay-200">Una pequeña selección de proyectos en los que he trabajado</p>
                 </div>
 
                 {/* Projects Grid */}
@@ -119,7 +119,7 @@ export const Projects = () =>{
                 {/* View All CTA */}
                 <div className="text-center mt-12 animate-fade-in animation-delay-500">
                     <AnimatedBorderButton>
-                        View All Projects
+                        Todos los proyectos
                         <ArrowUpRight className="w-5 h-5" />
                     </AnimatedBorderButton>
                 </div>

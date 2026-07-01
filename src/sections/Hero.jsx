@@ -63,28 +63,26 @@ export const Hero = () =>{
                     {/* Headline */}
                     <div className="space-y-4">
                         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animated-delay-100">
-                            Creating <span className="text-primary glow-text">digital solutions</span><br/>
+                            Creando <span className="text-primary glow-text">soluciones digitales</span><br/>
                             <span className="text-primary">Always</span> <span className="font-serif italic font-normal text-white">learning</span>
                         </h1>
                         <p className="text-lg text-muted-foreground max-w-lg animate-fade-in  animated-delay-200">
-                            Hi, I'm Samuel Rumbo - a fullstack software developer specializing in Spring Boot,
-                            React, TypeScript, Laravel and Django. Always looking to learn more so I can find
-                            the best digital solutions.
+                            Me especializo en el desarrollo de aplicaciones web y móviles, utilizando tecnologías modernas para crear experiencias digitales atractivas y funcionales.
                         </p>
                     </div>
                     {/* CTAs */}
                     <div className="flex flex-wrap gap-4 animate-fade-in animated-delay-300">
                         <Button size="lg">
-                            Contact Me<ArrowRight className="w-5 h-5"/>
+                            Contacto <ArrowRight className="w-5 h-5"/>
                         </Button>
                         <AnimatedBorderButton>
                             <Download className="w-5 h-5"/>
-                            Download CV
+                            Descargar CV
                         </AnimatedBorderButton>
                     </div>
                     {/* Social Links */}
                     <div className="flex items-center gap-4 animate-fade-in animated-delay-400">
-                        <span className="text-sm text-muted-foreground">Follow: </span>
+                        <span className="text-sm text-muted-foreground">Sígueme: </span>
                         {[
                             {icon: Gitlab, href:"https://gitlab.com/e.srumbo"},
                             {icon: Linkedin, href:"https://www.linkedin.com/in/samuelrumbo"},
@@ -115,12 +113,12 @@ export const Hero = () =>{
                             <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                                 <div className="flex items-center gap-3">
                                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"/>
-                                    <span className="text-sm font-medium">Available for work</span>
+                                    <span className="text-sm font-medium">Listo para trabajar</span>
                                 </div>
                             </div>
                             {/* Stats Badge */}
                             <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                                <div className="text-2xl font-bold text-primary">1+ Years Exp.</div>
+                                <div className="text-2xl font-bold text-primary">1+ año de experiencia</div>
                                 <div className="text-xl font-bold text-primary">Spring Boot / Next.js / PostgreSQL</div>
                             </div>
                         </div>
@@ -130,7 +128,7 @@ export const Hero = () =>{
             {/* Skills Section */}
             <div className="mt-20 animate-fade-in animation-delay-600">
                 <p className="text-sm text-muted-foreground mb-6 text-center">
-                    Technologies I work with
+                    Tecnologías con las que he trabajado:
                 </p>
                 <div className="relative overflow-hidden">
                     <div className="flex animate-marquee">

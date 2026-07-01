@@ -3,26 +3,26 @@ import { Brain, Code2, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Codigo Limpio",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Escribiendo código limpio y mantenible que sigue las mejores prácticas de la industria.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Optimizacion de Rendimiento",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Optimizando para velocidad y ofreciendo experiencias de usuario extremadamente rápidas.",
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "Trabajo en Equipo",
+    description: "Trabajando en estrecha colaboración con equipos para dar vida a ideas.",
   },
   {
     icon: Brain,
-    title: "Innovation",
+    title: "Innovación",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Manteniéndome al día con las últimas tecnologías y prácticas recomendadas.",
   },
 ];
 export const About = () =>{
@@ -35,42 +35,37 @@ export const About = () =>{
                     <div className="space-y-8">
                         <div className="animate-fade-in">
                             <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
-                                About Me
+                                Sobre mí
                             </span>
                         </div>
                         <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-                            Building the future,
+                            Haciendo realidad ideas, <br/>
                             <span className="font-serif italic font-normal text-white">
                                 {" "}
-                                one component at a time.
+                                creando soluciones.
                             </span>
                         </h2>
                         <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                             <p>
-                                I'm a passionate software engineer with over 5 years of
-                                experience crafting digital products that make a difference. My
-                                journey started with a curiosity for how things work on the web,
-                                and it has evolved into a deep expertise in modern frontend
-                                technologies.
+                                Hola, soy Samuel Rumbo, un desarrollador de software fullstack apasionado 
+                                por crear soluciones digitales innovadoras. He trabajado con una gran variedad de
+                                lenguajes y frameworks, incluyendo Spring Boot, Next.js, TypeScript, 
+                                Laravel y Django.
                             </p>
                             <p>
-                                I specialize in React, Next.js, and TypeScript, building
-                                everything from sleek landing pages to complex enterprise
-                                applications. My approach combines technical excellence with a
-                                keen eye for design and user experience.
+                                {/* AÑADIR MAS DETALLES EN EL FUTURO */}
                             </p>
                             <p>
-                                When I'm not coding, you'll find me exploring new technologies,
-                                contributing to open-source projects, or sharing knowledge with
-                                the developer community.
+                                Si no estoy escribiendo código, probablemente me encuentres explorando 
+                                nuevas tecnologías, haciendo deporte, jugando videojuegos o disfrutando de un buen libro. 
+                                Siempre estoy buscando aprender y crecer como desarrollador y persona.
                             </p>
                         </div>
 
                         <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
                             <p className="text-lg font-medium italic text-foreground">
-                                "My mission is to create digital experiences that are not just
-                                functional, but truly delightful — products that users love to
-                                use and developers love to maintain."
+                                "Mi objetivo es crear experiencias digitales que no sean solo funcionales,
+                                sino que también sean atractivas, fáciles de usar y que aporten valor a los usuarios."
                             </p>
                         </div>
                     </div>
