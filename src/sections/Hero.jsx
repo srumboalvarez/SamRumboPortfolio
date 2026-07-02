@@ -69,7 +69,8 @@ export const Hero = () =>{
                             <span className="text-primary">Always</span> <span className="font-serif italic font-normal text-white">learning</span>
                         </h1>
                         <p className="text-lg text-muted-foreground max-w-lg animate-fade-in  animated-delay-200">
-                            Me especializo en el desarrollo de aplicaciones web y móviles, utilizando tecnologías modernas para crear experiencias digitales atractivas y funcionales.
+                            Hola, soy Samuel Rumbo. Te doy la bienvenida a mi portfolio personal donde podrás conocerme
+                            un poco más.
                         </p>
                     </div>
                     {/* CTAs */}

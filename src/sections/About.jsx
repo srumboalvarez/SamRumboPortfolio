@@ -47,13 +47,13 @@ export const About = () =>{
                         </h2>
                         <div className="space-y-4 text-muted-foreground animate-fade-in animated-delay-200">
                             <p>
-                                Hola, soy Samuel Rumbo, un desarrollador de software fullstack apasionado 
-                                por crear soluciones digitales innovadoras. He trabajado con una gran variedad de
-                                lenguajes y frameworks, incluyendo Spring Boot, Next.js, TypeScript, 
-                                Laravel y Django.
+                                Mi camino al mundo de la programación empezó de una forma mucho más indirecta que para
+                                la mayoria: pasé de ser carpintero a descubrir mi pasión por el desarrollo y dar un giro
+                                radical a mi carrera profesional.
                             </p>
                             <p>
-                                {/* AÑADIR MAS DETALLES EN EL FUTURO */}
+                                Las habilidades que aprendí como carpintero - atención al detalle, precisión y paciencia -
+                                son las mismas que aplico a la hora de programar.
                             </p>
                             <p>
                                 Si no estoy escribiendo código, probablemente me encuentres explorando 
