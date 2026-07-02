@@ -5,7 +5,7 @@ const projects = [
     {
         title: "Trueke (En Progreso)",
         description: "Aplicación web de Trueke. Una web donde los usuarios pueden intercambiar productos y servicios sin necesidad de dinero.",
-        image: "/public/projects/trueke.jpg",
+        image: "/projects/trueke.jpg",
         tags: ["React", "SpringBoot", "PostgreSQL"],
         link: "#",
         gitlab: "#",
@@ -13,7 +13,7 @@ const projects = [
     {
         title: "Mi Portafolio",
         description: "Projecto de práctica para mi portafolio personal, utilizando React, Tailwind CSS y JavaScript.",
-        image: "/public/projects/myPortfolio.jpg",
+        image: "/projects/myPortfolio.jpg",
         tags: ["React", "Tailwind CSS"],
         link: "#",
         gitlab: "#",
@@ -21,7 +21,7 @@ const projects = [
     {
         title: "BlogCafe",
         description: "Projecto de práctica para de un blog sobre cafe para un negocio local, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
-        image: "/public/projects/blogCafe.jpg",
+        image: "/projects/blogCafe.jpg",
         tags: ["HTML5", "CSS3", "JavaScript"],
         link: "https://blogcafesrumbo.netlify.app/",
         gitlab: "https://blogcafesrumbo.netlify.app/",
@@ -29,7 +29,7 @@ const projects = [
     {
         title: "Techno & EDM Festival",
         description: "Projecto de un festival de musica electronica, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
-        image: "/public/projects/technofestivalproject.jpg",
+        image: "/projects/technofestivalproject.jpg",
         tags: ["HTML5", "CSS3", "JavaScript"],
         link: "https://techandedmusicfest.netlify.app/",
         gitlab: "https://techandedmusicfest.netlify.app/",

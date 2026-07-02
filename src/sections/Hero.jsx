@@ -1,6 +1,8 @@
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import { Button } from "@/components/Button";
 import { ArrowRight, ChevronDown, Gitlab, Linkedin, Download} from "lucide-react";
+import bgHero from "@/assets/bg-hero.jpg";
+import fotoPerfil from "@/assets/fotoperfil.png";
 
 const dots = [...Array(30)].map(() => ({
     left: `${Math.random() * 100}%`,
@@ -32,7 +34,7 @@ export const Hero = () =>{
     <section className="relative min-h-screen flex items-center overflow-hidden">
         {/* Background */}
         <div className="absolute inset-0">
-            <img src="src\assets\bg-hero.jpg" 
+            <img src={bgHero}
             alt="Hero Image" 
             className="w-full h-full object-cover opacity-40"/>
         </div>
@@ -105,7 +107,7 @@ export const Hero = () =>{
                         />
                         <div className="relative glass rounded-3xl p-2 glow-border">
                             <img 
-                                src="src\assets\fotoperfil.png" 
+                                src={fotoPerfil}
                                 alt="Samuel Rumbo" 
                                 className="w-full aspect-3/5 object-cover rounded-2xl"
                             />
