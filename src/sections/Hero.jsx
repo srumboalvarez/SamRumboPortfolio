@@ -15,15 +15,15 @@ const skills = [
     "React",
     "Next.js",
     "Laravel",
-    "Typescript",
+    "TypeScript",
     "Django",
-    "PostreSQL",
+    "PostgreSQL",
     "MongoDB",
     "Angular",
     ".NET",
     "Spring Boot",
     "HTML / CSS",
-    "Javascript",
+    "JavaScript",
     "Tailwind CSS",
     "Bootstrap"
 ];
@@ -96,7 +96,7 @@ export const Hero = () =>{
                     </div>
                 </div>
                 {/* Right Column - Profile Pic */}
-                <div className="relative animate-fade-in animation-delay-300">
+                <div className="relative animate-fade-in animated-delay-300">
                     {/* Profile Image */}
                     <div className="relative max-w-md mx-auto">
                         <div
@@ -119,7 +119,7 @@ export const Hero = () =>{
                                 </div>
                             </div>
                             {/* Stats Badge */}
-                            <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
+                            <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animated-delay-500">
                                 <div className="text-2xl font-bold text-primary">1+ año de experiencia</div>
                                 <div className="text-xl font-bold text-primary">Spring Boot / Next.js / PostgreSQL</div>
                             </div>
@@ -128,7 +128,7 @@ export const Hero = () =>{
                 </div>
             </div>
             {/* Skills Section */}
-            <div className="mt-20 animate-fade-in animation-delay-600">
+            <div className="mt-20 animate-fade-in animated-delay-600">
                 <p className="text-sm text-muted-foreground mb-6 text-center">
                     Tecnologías con las que he trabajado:
                 </p>
@@ -143,8 +143,8 @@ export const Hero = () =>{
                 </div>
             </div>
         </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
-            <a href="#about" className="flex flex-col items-center grap-2 text-muted-foreground hover:text-primary transition-colors group">
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animated-delay-800">
+            <a href="#about" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group">
                 <span className="text-xs uppercase tracking-wider">
                     Scroll
                 </span>

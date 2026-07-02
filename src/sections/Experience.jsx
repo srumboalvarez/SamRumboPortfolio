@@ -65,13 +65,13 @@ export const Experience = () =>{
         <div className="container mx-auto px-6 relative z-10">
             {/* SECTION HEADER */}
             <div className="max-w-3xl mb-16">
-                <span className="text-secondary-foreground text-sm front-medium tracking-wider uppercase animate-fade-in">Curriculum</span>
-                <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
+                <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Currículum</span>
+                <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animated-delay-100 text-secondary-foreground">
                     Aquí te presento 
                     <span className="font-serif italic font-normal text-white"> mi aventura personal</span>
                 </h2>
                 
-                <p className="text-muted-foreground animate-fade-in animation-delay-200">
+                <p className="text-muted-foreground animate-fade-in animated-delay-200">
                     Mi crecimiento profesional ha sido un viaje lleno de experiencias diversas, 
                     desde la carpintería hasta el desarrollo de software. Cada etapa ha contribuido a mi 
                     desarrollo integral, permitiéndome adquirir habilidades técnicas y blandas que me han 

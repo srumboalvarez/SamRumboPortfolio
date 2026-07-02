@@ -2,7 +2,7 @@ import { Gitlab, Linkedin, Mail, ArrowUp } from "lucide-react";
 
 const navLinks = [
     { href: "#about", label: "Sobre mí" },
-    { href: "#projects", label: "Projectos" },
+    { href: "#projects", label: "Proyectos" },
     { href: "#experience", label: "Experiencia" },
     { href: "#contact", label: "Contacto" },
 ];

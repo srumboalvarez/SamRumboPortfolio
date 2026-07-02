@@ -3,13 +3,13 @@ import { Brain, Code2, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Codigo Limpio",
+    title: "Código Limpio",
     description:
       "Escribiendo código limpio y mantenible que sigue las mejores prácticas de la industria.",
   },
   {
     icon: Rocket,
-    title: "Optimizacion de Rendimiento",
+    title: "Optimización de Rendimiento",
     description:
       "Optimizando para velocidad y ofreciendo experiencias de usuario extremadamente rápidas.",
   },
@@ -38,14 +38,14 @@ export const About = () =>{
                                 Sobre mí
                             </span>
                         </div>
-                        <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
+                        <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animated-delay-100 text-secondary-foreground">
                             Haciendo realidad ideas, <br/>
                             <span className="font-serif italic font-normal text-white">
                                 {" "}
                                 creando soluciones.
                             </span>
                         </h2>
-                        <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
+                        <div className="space-y-4 text-muted-foreground animate-fade-in animated-delay-200">
                             <p>
                                 Hola, soy Samuel Rumbo, un desarrollador de software fullstack apasionado 
                                 por crear soluciones digitales innovadoras. He trabajado con una gran variedad de
@@ -62,7 +62,7 @@ export const About = () =>{
                             </p>
                         </div>
 
-                        <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
+                        <div className="glass rounded-2xl p-6 glow-border animate-fade-in animated-delay-300">
                             <p className="text-lg font-medium italic text-foreground">
                                 "Mi objetivo es crear experiencias digitales que no sean solo funcionales,
                                 sino que también sean atractivas, fáciles de usar y que aporten valor a los usuarios."

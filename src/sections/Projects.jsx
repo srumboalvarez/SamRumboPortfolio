@@ -12,7 +12,7 @@ const projects = [
     },
     {
         title: "Mi Portafolio",
-        description: "Projecto de práctica para mi portafolio personal, utilizando React, Tailwind CSS y JavaScript.",
+        description: "Proyecto de práctica para mi portafolio personal, utilizando React, Tailwind CSS y JavaScript.",
         image: "/projects/myPortfolio.jpg",
         tags: ["React", "Tailwind CSS"],
         link: "#",
@@ -20,7 +20,7 @@ const projects = [
     },
     {
         title: "BlogCafe",
-        description: "Projecto de práctica para de un blog sobre cafe para un negocio local, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
+        description: "Proyecto de práctica para un blog sobre café para un negocio local, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
         image: "/projects/blogCafe.jpg",
         tags: ["HTML5", "CSS3", "JavaScript"],
         link: "https://blogcafesrumbo.netlify.app/",
@@ -28,7 +28,7 @@ const projects = [
     },
     {
         title: "Techno & EDM Festival",
-        description: "Projecto de un festival de musica electronica, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
+        description: "Proyecto de un festival de música electrónica, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
         image: "/projects/technofestivalproject.jpg",
         tags: ["HTML5", "CSS3", "JavaScript"],
         link: "https://techandedmusicfest.netlify.app/",
@@ -46,16 +46,16 @@ export const Projects = () =>{
                 {/* Section header */}
                 <div className="text-center mx-auto max-w-3xl mb-16">
                     <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-                        Mis Projectos
+                        Mis Proyectos
                     </span>
-                    <h2  className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-                        Projectos que he desarrollado
+                    <h2  className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animated-delay-100 text-secondary-foreground">
+                        Proyectos que he desarrollado
                         <span className="font-serif italic font-normal text-white">
                             {""}
                             , mejorando cada día.
                         </span>
                     </h2>
-                    <p className="text-muted-foreground animate-fade-in animation-delay-200">Una pequeña selección de proyectos en los que he trabajado</p>
+                    <p className="text-muted-foreground animate-fade-in animated-delay-200">Una pequeña selección de proyectos en los que he trabajado</p>
                 </div>
 
                 {/* Projects Grid */}
@@ -117,7 +117,7 @@ export const Projects = () =>{
                     ))}
                 </div>
                 {/* View All CTA */}
-                <div className="text-center mt-12 animate-fade-in animation-delay-500">
+                <div className="text-center mt-12 animate-fade-in animated-delay-500">
                     <AnimatedBorderButton>
                         Todos los proyectos
                         <ArrowUpRight className="w-5 h-5" />

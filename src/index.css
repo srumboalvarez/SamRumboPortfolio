@@ -111,6 +111,9 @@
   .animated-delay-600{
     animation-delay: 600ms;
   }
+  .animated-delay-800{
+    animation-delay: 800ms;
+  }
 
   @keyframes animated-border {
     0%{
