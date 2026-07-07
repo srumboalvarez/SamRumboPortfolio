@@ -1,11 +1,5 @@
 import { Gitlab, Linkedin, Mail, ArrowUp } from "lucide-react";
-
-const navLinks = [
-    { href: "#about", label: "Sobre mí" },
-    { href: "#projects", label: "Proyectos" },
-    { href: "#experience", label: "Experiencia" },
-    { href: "#contact", label: "Contacto" },
-];
+import { useTranslation } from "react-i18next";
 
 const socialLinks = [
     { icon: Gitlab, href: "https://gitlab.com/e.srumbo" },
@@ -14,7 +8,15 @@ const socialLinks = [
 ];
 
 export const Footer = () => {
+    const { t } = useTranslation();
     const year = new Date().getFullYear();
+
+    const navLinks = [
+        { href: "#about", label: t("nav.about") },
+        { href: "#projects", label: t("nav.projects") },
+        { href: "#experience", label: t("nav.experience") },
+        { href: "#contact", label: t("nav.contact") },
+    ];
 
     return (
         <footer className="relative border-t border-border/50 overflow-hidden">
@@ -58,14 +60,14 @@ export const Footer = () => {
 
                 <div className="mt-10 pt-8 border-t border-border/50 flex flex-col-reverse md:flex-row items-center justify-between gap-4">
                     <p className="text-sm text-muted-foreground text-center">
-                        © {year} Samuel Rumbo. Todos los derechos reservados.
+                        © {year} Samuel Rumbo. {t("footer.rights")}
                     </p>
 
                     <a
                         href="#"
                         className="flex items-center gap-2 p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300 text-sm text-muted-foreground"
                     >
-                        Volver arriba <ArrowUp className="w-4 h-4" />
+                        {t("footer.backToTop")} <ArrowUp className="w-4 h-4" />
                     </a>
                 </div>
             </div>

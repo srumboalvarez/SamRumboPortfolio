@@ -1,33 +1,16 @@
 import { Brain, Code2, Rocket, Users } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-const highlights = [
-  {
-    icon: Code2,
-    title: "Código Limpio",
-    description:
-      "Escribiendo código limpio y mantenible que sigue las mejores prácticas de la industria.",
-  },
-  {
-    icon: Rocket,
-    title: "Optimización de Rendimiento",
-    description:
-      "Optimizando para velocidad y ofreciendo experiencias de usuario extremadamente rápidas.",
-  },
-  {
-    icon: Users,
-    title: "Trabajo en Equipo",
-    description: "Trabajando en estrecha colaboración con equipos para dar vida a ideas.",
-  },
-  {
-    icon: Brain,
-    title: "Innovación",
-    description:
-      "Manteniéndome al día con las últimas tecnologías y prácticas recomendadas.",
-  },
-];
+const highlightIcons = [Code2, Rocket, Users, Brain];
+
 export const About = () =>{
+    const { t } = useTranslation();
+    const highlights = t("about.highlights", { returnObjects: true }).map((item, idx) => ({
+        ...item,
+        icon: highlightIcons[idx],
+    }));
 
-    return( 
+    return(
         <section id="about" className="py-32 relative overflow-hidden">
             <div className="container mx-auto px-6 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -35,37 +18,31 @@ export const About = () =>{
                     <div className="space-y-8">
                         <div className="animate-fade-in">
                             <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
-                                Sobre mí
+                                {t("about.label")}
                             </span>
                         </div>
                         <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animated-delay-100 text-secondary-foreground">
-                            Haciendo realidad ideas, <br/>
+                            {t("about.titleLine1")} <br/>
                             <span className="font-serif italic font-normal text-white">
                                 {" "}
-                                creando soluciones.
+                                {t("about.titleHighlight")}
                             </span>
                         </h2>
                         <div className="space-y-4 text-muted-foreground animate-fade-in animated-delay-200">
                             <p>
-                                Mi camino al mundo de la programación empezó de una forma mucho más indirecta que para
-                                la mayoria: pasé de ser carpintero a descubrir mi pasión por el desarrollo y dar un giro
-                                radical a mi carrera profesional.
+                                {t("about.paragraph1")}
                             </p>
                             <p>
-                                Las habilidades que aprendí como carpintero - atención al detalle, precisión y paciencia -
-                                son las mismas que aplico a la hora de programar.
+                                {t("about.paragraph2")}
                             </p>
                             <p>
-                                Si no estoy escribiendo código, probablemente me encuentres explorando 
-                                nuevas tecnologías, haciendo deporte, jugando videojuegos o disfrutando de un buen libro. 
-                                Siempre estoy buscando aprender y crecer como desarrollador y persona.
+                                {t("about.paragraph3")}
                             </p>
                         </div>
 
                         <div className="glass rounded-2xl p-6 glow-border animate-fade-in animated-delay-300">
                             <p className="text-lg font-medium italic text-foreground">
-                                "Mi objetivo es crear experiencias digitales que no sean solo funcionales,
-                                sino que también sean atractivas, fáciles de usar y que aporten valor a los usuarios."
+                                "{t("about.quote")}"
                             </p>
                         </div>
                     </div>

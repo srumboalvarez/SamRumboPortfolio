@@ -1,34 +1,27 @@
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton"
 import { ArrowUpRight, Github } from "lucide-react"
+import { useTranslation } from "react-i18next";
 
-const projects = [
+const projectsMeta = [
     {
-        title: "Trueke (En Progreso)",
-        description: "Aplicación web de Trueke. Una web donde los usuarios pueden intercambiar productos y servicios sin necesidad de dinero.",
         image: "/projects/trueke.jpg",
         tags: ["React", "SpringBoot", "PostgreSQL"],
         link: "#",
         gitlab: "#",
     },
     {
-        title: "Mi Portafolio",
-        description: "Proyecto de práctica para mi portafolio personal, utilizando React, Tailwind CSS y JavaScript.",
         image: "/projects/myPortfolio.jpg",
         tags: ["React", "Tailwind CSS"],
         link: "#",
         gitlab: "#",
     },
     {
-        title: "BlogCafe",
-        description: "Proyecto de práctica para un blog sobre café para un negocio local, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
         image: "/projects/blogCafe.jpg",
         tags: ["HTML5", "CSS3", "JavaScript"],
         link: "https://blogcafesrumbo.netlify.app/",
         gitlab: "https://blogcafesrumbo.netlify.app/",
     },
     {
-        title: "Techno & EDM Festival",
-        description: "Proyecto de un festival de música electrónica, con un diseño moderno y atractivo, utilizando HTML5, CSS3 y JavaScript.",
         image: "/projects/technofestivalproject.jpg",
         tags: ["HTML5", "CSS3", "JavaScript"],
         link: "https://techandedmusicfest.netlify.app/",
@@ -37,7 +30,11 @@ const projects = [
 ];
 
 export const Projects = () =>{
-    return( 
+    const { t } = useTranslation();
+    const translatedItems = t("projects.items", { returnObjects: true });
+    const projects = projectsMeta.map((meta, idx) => ({ ...meta, ...translatedItems[idx] }));
+
+    return(
         <section id="projects" className="py-32 relative overflow-hidden">
             {/* Bg glows */}
             <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
@@ -46,16 +43,16 @@ export const Projects = () =>{
                 {/* Section header */}
                 <div className="text-center mx-auto max-w-3xl mb-16">
                     <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-                        Mis Proyectos
+                        {t("projects.label")}
                     </span>
                     <h2  className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animated-delay-100 text-secondary-foreground">
-                        Proyectos que he desarrollado
+                        {t("projects.titleLine1")}
                         <span className="font-serif italic font-normal text-white">
                             {""}
-                            , mejorando cada día.
+                            {t("projects.titleHighlight")}
                         </span>
                     </h2>
-                    <p className="text-muted-foreground animate-fade-in animated-delay-200">Una pequeña selección de proyectos en los que he trabajado</p>
+                    <p className="text-muted-foreground animate-fade-in animated-delay-200">{t("projects.subtitle")}</p>
                 </div>
 
                 {/* Projects Grid */}
@@ -119,7 +116,7 @@ export const Projects = () =>{
                 {/* View All CTA */}
                 <div className="text-center mt-12 animate-fade-in animated-delay-500">
                     <AnimatedBorderButton>
-                        Todos los proyectos
+                        {t("projects.viewAll")}
                         <ArrowUpRight className="w-5 h-5" />
                     </AnimatedBorderButton>
                 </div>

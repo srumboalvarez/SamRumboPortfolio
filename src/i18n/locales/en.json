@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "contactCta": "Contact"
+  },
+  "hero": {
+    "badge": "Full Stack Software Developer",
+    "titleLine1": "Building",
+    "titleHighlight": "digital solutions",
+    "titleAlways": "Always",
+    "titleLearning": "learning",
+    "subtitle": "Hi, I'm Samuel Rumbo. Welcome to my personal portfolio, where you can get to know me a little better.",
+    "ctaContact": "Contact",
+    "ctaDownloadCV": "Download CV",
+    "followMe": "Follow me:",
+    "readyToWork": "Available for work",
+    "experienceBadge": "1+ year of experience",
+    "skillsLabel": "Technologies I've worked with:",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "About me",
+    "titleLine1": "Turning ideas into reality,",
+    "titleHighlight": "building solutions.",
+    "paragraph1": "My path into programming started in a much more indirect way than most: I went from being a carpenter to discovering my passion for development and making a radical shift in my career.",
+    "paragraph2": "The skills I learned as a carpenter - attention to detail, precision and patience - are the same ones I apply when coding.",
+    "paragraph3": "If I'm not writing code, you'll probably find me exploring new technologies, doing sports, playing video games or enjoying a good book. I'm always looking to learn and grow as a developer and as a person.",
+    "quote": "My goal is to create digital experiences that are not only functional, but also appealing, easy to use and valuable to users.",
+    "highlights": [
+      { "title": "Clean Code", "description": "Writing clean, maintainable code that follows industry best practices." },
+      { "title": "Performance Optimization", "description": "Optimizing for speed and delivering blazing-fast user experiences." },
+      { "title": "Teamwork", "description": "Working closely with teams to bring ideas to life." },
+      { "title": "Innovation", "description": "Staying up to date with the latest technologies and best practices." }
+    ]
+  },
+  "projects": {
+    "label": "My Projects",
+    "titleLine1": "Projects I've built",
+    "titleHighlight": ", improving every day.",
+    "subtitle": "A small selection of projects I've worked on",
+    "viewAll": "All projects",
+    "items": [
+      { "title": "Trueke (In Progress)", "description": "Trueke web application. A platform where users can exchange products and services without using money." },
+      { "title": "My Portfolio", "description": "Practice project for my personal portfolio, built with React, Tailwind CSS and JavaScript." },
+      { "title": "BlogCafe", "description": "Practice project for a coffee blog for a local business, with a modern and appealing design, built with HTML5, CSS3 and JavaScript." },
+      { "title": "Techno & EDM Festival", "description": "Project for an electronic music festival, with a modern and appealing design, built with HTML5, CSS3 and JavaScript." }
+    ]
+  },
+  "experience": {
+    "label": "Resume",
+    "titleLine1": "Here's",
+    "titleHighlight": "my personal journey",
+    "subtitle": "My professional growth has been a journey full of diverse experiences, from carpentry to software development. Each stage has contributed to my overall development, allowing me to gain the technical and soft skills that have prepared me to face challenges in today's job market.",
+    "items": [
+      { "period": "Oct 2025 - Mar 2026", "role": "Junior Developer", "company": "Tecnocim Innova", "description": "REST API developer building a Spring Boot API from scratch to manage R&D tax incentive programs, leveraging AI agents to optimize results." },
+      { "period": "Feb 2025 - Sep 2025", "role": "Developer (internship)", "company": "Tecnocim Innova", "description": "Developed a REST API in Spring Boot from scratch, including the design and creation of the PostgreSQL database." },
+      { "period": "Jun 2024", "role": "Software Developer", "company": "Playoff Informática", "description": "Testing and improving the company's application. Extended and fixed API functionality and implemented advanced controls with database operations." },
+      { "period": "Sep 2023 - Jun 2026", "role": "Multiplatform Application Development (DAM)", "company": "I.E.S. Sabadell", "description": "Vocational training program where we learn to become full-stack developers using different languages and frameworks such as Spring Boot, .NET, Django, Laravel or React." },
+      { "period": "Mar 2022 - Aug 2023", "role": "Teaching Assistant", "company": "Meimersdorf Schule / Schule am Heidenberger Teich", "description": "Provided educational support and guidance to students in various school settings." },
+      { "period": "Aug 2017 - May 2021", "role": "Carpenter", "company": "Die Hoftischlerei, Ludwig Hauschild GmbH", "description": "Specialized in custom carpentry, installation and construction project management, with a focus on quality craftsmanship." },
+      { "period": "Aug 2017 - Jul 2020", "role": "Vocational Training as a Carpenter", "company": "Walther-Lehmkuhl-Schule", "description": "German vocational training program specialized in carpentry and woodworking, the starting point of the journey that would later lead me to software development." }
+    ]
+  },
+  "contact": {
+    "label": "Get in touch",
+    "titleLine1": "Let's build",
+    "titleHighlight": "something great",
+    "subtitle": "If you have a project in mind, I'd love to help you make it a reality. Feel free to reach out to discuss your ideas and how we can work together to bring them to life.",
+    "formName": "Name",
+    "formNamePlaceholder": "Your name...",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "Your email...",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Your message...",
+    "sending": "Sending...",
+    "send": "Send Message",
+    "successMessage": "Message sent successfully.",
+    "errorMessage": "Error sending the message. Please try again.",
+    "infoTitle": "Contact information",
+    "infoLabels": { "email": "Email", "phone": "Phone", "location": "Location" }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "projects": "Projekte",
+    "experience": "Erfahrung",
+    "contact": "Kontakt",
+    "contactCta": "Kontakt"
+  },
+  "hero": {
+    "badge": "Full Stack Software Developer",
+    "titleLine1": "Ich entwickle",
+    "titleHighlight": "digitale Lösungen",
+    "titleAlways": "Always",
+    "titleLearning": "learning",
+    "subtitle": "Hallo, ich bin Samuel Rumbo. Willkommen auf meinem persönlichen Portfolio, wo Sie mich etwas näher kennenlernen können.",
+    "ctaContact": "Kontakt",
+    "ctaDownloadCV": "Lebenslauf herunterladen",
+    "followMe": "Folgen Sie mir:",
+    "readyToWork": "Verfügbar für neue Projekte",
+    "experienceBadge": "1+ Jahr Erfahrung",
+    "skillsLabel": "Technologien, mit denen ich gearbeitet habe:",
+    "scroll": "Scrollen"
+  },
+  "about": {
+    "label": "Über mich",
+    "titleLine1": "Ideen Wirklichkeit werden lassen,",
+    "titleHighlight": "Lösungen schaffen.",
+    "paragraph1": "Mein Weg in die Programmierung begann viel indirekter als bei den meisten: Ich war Tischler, bevor ich meine Leidenschaft für die Softwareentwicklung entdeckte und meiner beruflichen Laufbahn eine radikale Wendung gab.",
+    "paragraph2": "Die Fähigkeiten, die ich als Tischler gelernt habe - Liebe zum Detail, Präzision und Geduld - sind dieselben, die ich beim Programmieren anwende.",
+    "paragraph3": "Wenn ich keinen Code schreibe, findet man mich wahrscheinlich beim Erkunden neuer Technologien, beim Sport, beim Videospielen oder mit einem guten Buch. Ich möchte immer weiter lernen und mich als Entwickler und als Mensch weiterentwickeln.",
+    "quote": "Mein Ziel ist es, digitale Erlebnisse zu schaffen, die nicht nur funktional, sondern auch ansprechend, benutzerfreundlich und wertvoll für die Nutzer sind.",
+    "highlights": [
+      { "title": "Sauberer Code", "description": "Ich schreibe sauberen, wartbaren Code nach den Best Practices der Branche." },
+      { "title": "Leistungsoptimierung", "description": "Optimierung für Geschwindigkeit und blitzschnelle Nutzererlebnisse." },
+      { "title": "Teamarbeit", "description": "Enge Zusammenarbeit mit Teams, um Ideen zum Leben zu erwecken." },
+      { "title": "Innovation", "description": "Immer auf dem neuesten Stand der Technologien und bewährten Verfahren." }
+    ]
+  },
+  "projects": {
+    "label": "Meine Projekte",
+    "titleLine1": "Projekte, die ich entwickelt habe",
+    "titleHighlight": ", jeden Tag ein bisschen besser.",
+    "subtitle": "Eine kleine Auswahl der Projekte, an denen ich gearbeitet habe",
+    "viewAll": "Alle Projekte",
+    "items": [
+      { "title": "Trueke (In Bearbeitung)", "description": "Trueke-Webanwendung. Eine Plattform, auf der Nutzer Produkte und Dienstleistungen ohne Geld tauschen können." },
+      { "title": "Mein Portfolio", "description": "Übungsprojekt für mein persönliches Portfolio mit React, Tailwind CSS und JavaScript." },
+      { "title": "BlogCafe", "description": "Übungsprojekt für einen Kaffee-Blog für ein lokales Unternehmen mit modernem, ansprechendem Design, umgesetzt mit HTML5, CSS3 und JavaScript." },
+      { "title": "Techno & EDM Festival", "description": "Projekt für ein Elektro-Musikfestival mit modernem, ansprechendem Design, umgesetzt mit HTML5, CSS3 und JavaScript." }
+    ]
+  },
+  "experience": {
+    "label": "Lebenslauf",
+    "titleLine1": "Hier stelle ich Ihnen",
+    "titleHighlight": "meine persönliche Reise vor",
+    "subtitle": "Mein beruflicher Werdegang war eine Reise voller unterschiedlicher Erfahrungen, von der Tischlerei bis zur Softwareentwicklung. Jede Etappe hat zu meiner umfassenden Entwicklung beigetragen und mir die fachlichen und persönlichen Fähigkeiten vermittelt, die mich auf die Herausforderungen der heutigen Arbeitswelt vorbereitet haben.",
+    "items": [
+      { "period": "Okt. 2025 - März 2026", "role": "Junior Developer", "company": "Tecnocim Innova", "description": "REST-API-Entwickler, der eine Spring-Boot-API von Grund auf für die Verwaltung von F&E-Steuervergünstigungsprogrammen aufbaut und dabei KI-Agenten zur Optimierung der Ergebnisse einsetzt." },
+      { "period": "Feb. 2025 - Sept. 2025", "role": "Entwickler (Praktikum)", "company": "Tecnocim Innova", "description": "Entwicklung einer REST-API in Spring Boot von Grund auf, einschließlich Design und Erstellung der PostgreSQL-Datenbank." },
+      { "period": "Juni 2024", "role": "Softwareentwickler", "company": "Playoff Informática", "description": "Testen und Verbessern der Unternehmensanwendung. Erweiterung und Korrektur von API-Funktionen sowie Implementierung erweiterter Kontrollen mit Datenbankoperationen." },
+      { "period": "Sept. 2023 - Juni 2026", "role": "Multiplattform-Anwendungsentwicklung (DAM)", "company": "I.E.S. Sabadell", "description": "Ausbildungsgang, in dem wir lernen, Full-Stack-Entwickler zu werden, mit verschiedenen Sprachen und Frameworks wie Spring Boot, .NET, Django, Laravel oder React." },
+      { "period": "März 2022 - Aug. 2023", "role": "Lehrassistent", "company": "Meimersdorf Schule / Schule am Heidenberger Teich", "description": "Ich habe Schülerinnen und Schülern in verschiedenen schulischen Kontexten pädagogische Unterstützung und Orientierung geboten." },
+      { "period": "Aug. 2017 - Mai 2021", "role": "Tischler", "company": "Die Hoftischlerei, Ludwig Hauschild GmbH", "description": "Spezialisierung auf individuelle Tischlerarbeiten, Montage und Bauprojektmanagement mit Fokus auf hochwertige Handwerkskunst." },
+      { "period": "Aug. 2017 - Juli 2020", "role": "Ausbildung zum Tischler", "company": "Walther-Lehmkuhl-Schule", "description": "Deutsches Ausbildungsprogramm mit Schwerpunkt Tischlerei und Holzhandwerk, der Ausgangspunkt der Reise, die mich Jahre später zur Softwareentwicklung führen sollte." }
+    ]
+  },
+  "contact": {
+    "label": "Kontaktieren Sie mich",
+    "titleLine1": "Lassen Sie uns gemeinsam",
+    "titleHighlight": "etwas Großes schaffen",
+    "subtitle": "Wenn Sie ein Projekt im Kopf haben, helfe ich Ihnen gerne, es zu verwirklichen. Kontaktieren Sie mich gerne, um Ihre Ideen zu besprechen und wie wir gemeinsam daran arbeiten können.",
+    "formName": "Name",
+    "formNamePlaceholder": "Ihr Name...",
+    "formEmail": "E-Mail",
+    "formEmailPlaceholder": "Ihre E-Mail...",
+    "formMessage": "Nachricht",
+    "formMessagePlaceholder": "Ihre Nachricht...",
+    "sending": "Wird gesendet...",
+    "send": "Nachricht senden",
+    "successMessage": "Nachricht erfolgreich gesendet.",
+    "errorMessage": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut.",
+    "infoTitle": "Kontaktinformationen",
+    "infoLabels": { "email": "E-Mail", "phone": "Telefon", "location": "Standort" }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "backToTop": "Nach oben"
+  }
+}

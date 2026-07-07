@@ -1,16 +1,19 @@
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/Button";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useEffect, useState } from "react";
-
-const navLinks = [
-    {href: "#about", label: "Sobre mí"},
-    {href: "#projects", label: "Proyectos"},
-    {href: "#experience", label: "Experiencia"},
-];
+import { useTranslation } from "react-i18next";
 
 export const Navbar = () =>{
+    const { t } = useTranslation();
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+
+    const navLinks = [
+        {href: "#about", label: t("nav.about")},
+        {href: "#projects", label: t("nav.projects")},
+        {href: "#experience", label: t("nav.experience")},
+    ];
 
     useEffect(() => {
         const handleScroll = () => {
@@ -41,8 +44,9 @@ export const Navbar = () =>{
             </div>
 
             {/* CTA Button */}
-            <div className="hidden md:block">
-                <Button className="cursor-pointer" size="sm" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>Contacto</Button>
+            <div className="hidden md:flex items-center gap-3">
+                <LanguageSwitcher />
+                <Button className="cursor-pointer" size="sm" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>{t("nav.contactCta")}</Button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -67,7 +71,8 @@ export const Navbar = () =>{
                     <Button onClick={() => {
                         setIsMobileMenuOpen(false);
                         document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-                    }}>Contact Me</Button>
+                    }}>{t("nav.contactCta")}</Button>
+                    <LanguageSwitcher />
                 </div>
             </div>
         )}

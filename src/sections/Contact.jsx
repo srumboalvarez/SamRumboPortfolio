@@ -2,29 +2,19 @@ import { Mail, MapPin, Phone, Send, CheckCircle, AlertCircle } from "lucide-reac
 import { Button } from "@/components/Button"
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
+import { useTranslation } from "react-i18next";
 
-const contactInfo = [
-    {
-        icon: Mail,
-        label:"Email",
-        value:"srumboalvarez@gmail.com",
-        href:"mailto:srumboalvarez@gmail.com"
-    },
-    {
-        icon: Phone,
-        label: "Phone",
-        value: "+34 611841136",
-        href:"tel:+34611841136"
-    },
-    {
-        icon: MapPin,
-        label:"Location",
-        value: "Sabadell, Barcelona",
-        href: "#"
-    }
+const contactMeta = [
+    { icon: Mail, key: "email", value: "srumboalvarez@gmail.com", href: "mailto:srumboalvarez@gmail.com" },
+    { icon: Phone, key: "phone", value: "+34 611841136", href: "tel:+34611841136" },
+    { icon: MapPin, key: "location", value: "Sabadell, Barcelona", href: "#" },
 ]
 
 export const Contact = () =>{
+    const { t } = useTranslation();
+    const infoLabels = t("contact.infoLabels", { returnObjects: true });
+    const contactInfo = contactMeta.map((meta) => ({ ...meta, label: infoLabels[meta.key] }));
+
     const [formData, setFormData] = useState({
         name:"",
         email:"",
@@ -59,12 +49,12 @@ export const Contact = () =>{
                 message: formData.message
             }, publicKey);
 
-            setSubmitStatus({type:"success", message:"Mensaje enviado correctamente."});
+            setSubmitStatus({type:"success", message: t("contact.successMessage")});
             setFormData({name:"", email:"", message:""});
 
         }catch(error){
             console.error("Error sending email:", error);
-            setSubmitStatus({type:"error", message:"Error al enviar el mensaje. Por favor, inténtalo de nuevo."});
+            setSubmitStatus({type:"error", message: t("contact.errorMessage")});
         }finally{
             setIsLoading(false);
         }
@@ -81,18 +71,16 @@ export const Contact = () =>{
             {/* SECTION HEADER */}
             <div className="text-center mx-auto max-w-3xl mb-16">
                 <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-                    Contacta conmigo
+                    {t("contact.label")}
                 </span>
                 <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animated-delay-100 text-secondary-foreground">
-                    Hagamos juntos{" "}
-                    <span className="font-serif italic font-normal text-white"> 
-                        algo grande
+                    {t("contact.titleLine1")}{" "}
+                    <span className="font-serif italic font-normal text-white">
+                        {t("contact.titleHighlight")}
                     </span>
                 </h2>
                 <p className="text-muted-foreground animate-fade-in animated-delay-200">
-                    Si tienes algún proyecto en mente me encantaría ayudarte a hacerlo realidad.
-                    No dudes en contactarme para discutir tus ideas y cómo podemos trabajar juntos 
-                    para llevarlas a cabo.
+                    {t("contact.subtitle")}
                 </p>
             </div>
 
@@ -101,13 +89,13 @@ export const Contact = () =>{
                     <form className="space-y-6" onSubmit={handleChange}>
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">
-                                Nombre
+                                {t("contact.formName")}
                             </label>
-                            <input 
-                                id="name" 
+                            <input
+                                id="name"
                                 type="text"
                                 required
-                                placeholder="Tu nombre..."
+                                placeholder={t("contact.formNamePlaceholder")}
                                 value={formData.name}
                                 onChange={(e) => setFormData({...formData, name: e.target.value})}
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
@@ -117,13 +105,13 @@ export const Contact = () =>{
 
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium mb-2">
-                                Email
+                                {t("contact.formEmail")}
                             </label>
-                            <input 
-                                id="email" 
+                            <input
+                                id="email"
                                 type="email"
                                 required
-                                placeholder="Tu email..."
+                                placeholder={t("contact.formEmailPlaceholder")}
                                 value={formData.email}
                                 onChange={(e) => setFormData({...formData, email: e.target.value})}
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
@@ -132,13 +120,13 @@ export const Contact = () =>{
 
                         <div>
                             <label htmlFor="message" className="block text-sm font-medium mb-2">
-                                Mensaje
+                                {t("contact.formMessage")}
                             </label>
-                            <textarea 
-                                id="message" 
-                                rows={5} 
+                            <textarea
+                                id="message"
+                                rows={5}
                                 required
-                                placeholder="Tu mensaje..."
+                                placeholder={t("contact.formMessagePlaceholder")}
                                 value={formData.message}
                                 onChange={(e) => setFormData({...formData, message: e.target.value})}
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
@@ -148,11 +136,11 @@ export const Contact = () =>{
                         <Button className="w-full" type="submit" size="lg" disabled={isLoading}>
                             {isLoading ? (
                                 <>
-                                Enviando...
+                                {t("contact.sending")}
                                 </>
                             ) : (
                                 <>
-                                Enviar Mensaje
+                                {t("contact.send")}
                                 <Send className="w-5 h-5"/>
                                 </>
                             )}
@@ -181,7 +169,7 @@ export const Contact = () =>{
                 <div className="space-y-6 animate-fade-in animated-delay-400">
                     <div className="glass rounded-3xl p-8">
                         <h3 className="text-xl font-semibold mb-6">
-                            Información de contacto
+                            {t("contact.infoTitle")}
                         </h3>
                         <div className="space-y-4">
                             {contactInfo.map((item, i) => (

@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "about": "Sobre mi",
+    "projects": "Projectes",
+    "experience": "Experiència",
+    "contact": "Contacte",
+    "contactCta": "Contacte"
+  },
+  "hero": {
+    "badge": "Full Stack Software Developer",
+    "titleLine1": "Creant",
+    "titleHighlight": "solucions digitals",
+    "titleAlways": "Always",
+    "titleLearning": "learning",
+    "subtitle": "Hola, sóc Samuel Rumbo. Et dono la benvinguda al meu portfolio personal on podràs conèixer-me una mica més.",
+    "ctaContact": "Contacte",
+    "ctaDownloadCV": "Descarregar CV",
+    "followMe": "Segueix-me:",
+    "readyToWork": "Disponible per treballar",
+    "experienceBadge": "1+ any d'experiència",
+    "skillsLabel": "Tecnologies amb què he treballat:",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "Sobre mi",
+    "titleLine1": "Fent realitat idees,",
+    "titleHighlight": "creant solucions.",
+    "paragraph1": "El meu camí cap al món de la programació va començar d'una manera molt més indirecta que per a la majoria: vaig passar de ser fuster a descobrir la meva passió pel desenvolupament i fer un gir radical a la meva carrera professional.",
+    "paragraph2": "Les habilitats que vaig aprendre com a fuster - atenció al detall, precisió i paciència - són les mateixes que aplico a l'hora de programar.",
+    "paragraph3": "Si no estic escrivint codi, probablement em trobaràs explorant noves tecnologies, fent esport, jugant a videojocs o gaudint d'un bon llibre. Sempre estic buscant aprendre i créixer com a desenvolupador i persona.",
+    "quote": "El meu objectiu és crear experiències digitals que no siguin només funcionals, sinó que també siguin atractives, fàcils d'utilitzar i que aportin valor als usuaris.",
+    "highlights": [
+      { "title": "Codi Net", "description": "Escrivint codi net i mantenible que segueix les millors pràctiques de la indústria." },
+      { "title": "Optimització de Rendiment", "description": "Optimitzant per a velocitat i oferint experiències d'usuari extremadament ràpides." },
+      { "title": "Treball en Equip", "description": "Treballant en estreta col·laboració amb equips per donar vida a idees." },
+      { "title": "Innovació", "description": "Mantenint-me al dia amb les últimes tecnologies i pràctiques recomanades." }
+    ]
+  },
+  "projects": {
+    "label": "Els Meus Projectes",
+    "titleLine1": "Projectes que he desenvolupat",
+    "titleHighlight": ", millorant cada dia.",
+    "subtitle": "Una petita selecció de projectes en els quals he treballat",
+    "viewAll": "Tots els projectes",
+    "items": [
+      { "title": "Trueke (En Progrés)", "description": "Aplicació web de Trueke. Una web on els usuaris poden intercanviar productes i serveis sense necessitat de diners." },
+      { "title": "El Meu Portafoli", "description": "Projecte de pràctica per al meu portafoli personal, utilitzant React, Tailwind CSS i JavaScript." },
+      { "title": "BlogCafe", "description": "Projecte de pràctica per a un blog sobre cafè per a un negoci local, amb un disseny modern i atractiu, utilitzant HTML5, CSS3 i JavaScript." },
+      { "title": "Techno & EDM Festival", "description": "Projecte d'un festival de música electrònica, amb un disseny modern i atractiu, utilitzant HTML5, CSS3 i JavaScript." }
+    ]
+  },
+  "experience": {
+    "label": "Currículum",
+    "titleLine1": "Aquí et presento",
+    "titleHighlight": "la meva aventura personal",
+    "subtitle": "El meu creixement professional ha estat un viatge ple d'experiències diverses, des de la fusteria fins al desenvolupament de programari. Cada etapa ha contribuït al meu desenvolupament integral, permetent-me adquirir habilitats tècniques i toves que m'han preparat per afrontar reptes en el món laboral actual.",
+    "items": [
+      { "period": "oct. 2025 - mar. 2026", "role": "Junior Developer", "company": "Tecnocim Innova", "description": "Desenvolupador d'API REST en Spring Boot des de zero per gestionar programes de bonificacions fiscals en R+D+i, recolzant-me en agents d'intel·ligència artificial per optimitzar els resultats." },
+      { "period": "feb. 2025 - set. 2025", "role": "Desenvolupador (pràctiques)", "company": "Tecnocim Innova", "description": "Vaig desenvolupar una API REST en Spring Boot des de zero, incloent el disseny i la creació de la base de dades en PostgreSQL." },
+      { "period": "jun. 2024", "role": "Desenvolupador de Programari", "company": "Playoff Informática", "description": "Realització de proves i millora de l'aplicació de l'empresa. Ampliació i correcció de funcionalitats de l'API i implementació de controls avançats amb operacions de base de dades." },
+      { "period": "set. 2023 - jun. 2026", "role": "Desenvolupament d'Aplicacions Multiplataforma (DAM)", "company": "I.E.S. Sabadell", "description": "Cicle formatiu on aprenem a convertir-nos en programadors full-stack utilitzant diferents llenguatges i frameworks com Spring Boot, .NET, Django, Laravel o React." },
+      { "period": "mar. 2022 - ago. 2023", "role": "Assistent de Docència", "company": "Meimersdorf Schule / Schule am Heidenberger Teich", "description": "Vaig proporcionar suport educatiu i orientació a estudiants en diversos entorns escolars." },
+      { "period": "ago. 2017 - maig 2021", "role": "Fuster", "company": "Die Hoftischlerei, Ludwig Hauschild GmbH", "description": "Especialització en fusteria personalitzada, instal·lació i gestió de projectes de construcció, amb un enfocament en l'artesania de qualitat." },
+      { "period": "ago. 2017 - jul. 2020", "role": "Formació Professional com a Fuster", "company": "Walther-Lehmkuhl-Schule", "description": "Programa de formació professional alemany especialitzat en fusteria i artesania de la fusta, el punt de partida del viatge que em portaria, anys després, al desenvolupament de programari." }
+    ]
+  },
+  "contact": {
+    "label": "Contacta amb mi",
+    "titleLine1": "Fem junts",
+    "titleHighlight": "alguna cosa gran",
+    "subtitle": "Si tens algun projecte en ment m'encantaria ajudar-te a fer-lo realitat. No dubtis a contactar-me per discutir les teves idees i com podem treballar junts per dur-les a terme.",
+    "formName": "Nom",
+    "formNamePlaceholder": "El teu nom...",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "El teu email...",
+    "formMessage": "Missatge",
+    "formMessagePlaceholder": "El teu missatge...",
+    "sending": "Enviant...",
+    "send": "Enviar Missatge",
+    "successMessage": "Missatge enviat correctament.",
+    "errorMessage": "Error en enviar el missatge. Si us plau, torna-ho a intentar.",
+    "infoTitle": "Informació de contacte",
+    "infoLabels": { "email": "Email", "phone": "Telèfon", "location": "Ubicació" }
+  },
+  "footer": {
+    "rights": "Tots els drets reservats.",
+    "backToTop": "Tornar amunt"
+  }
+}
