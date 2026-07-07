@@ -3,7 +3,7 @@ import { Button } from "@/components/Button";
 import { ArrowRight, ChevronDown, Gitlab, Linkedin, Download} from "lucide-react";
 import { useTranslation } from "react-i18next";
 import bgHero from "@/assets/bg-hero.jpg";
-import fotoPerfil from "@/assets/fotoperfil.png";
+import fotoPerfil from "@/assets/pic.jpg";
 
 const dots = [...Array(30)].map(() => ({
     left: `${Math.random() * 100}%`,
