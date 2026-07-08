@@ -1,6 +1,6 @@
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import { Button } from "@/components/Button";
-import { ArrowRight, ChevronDown, Gitlab, Linkedin, Download} from "lucide-react";
+import { ArrowRight, ChevronDown, Gitlab, Linkedin, Download, Github} from "lucide-react";
 import { useTranslation } from "react-i18next";
 import bgHero from "@/assets/bg-hero.jpg";
 import fotoPerfil from "@/assets/pic.jpg";
@@ -88,7 +88,7 @@ export const Hero = () =>{
                     <div className="flex items-center gap-4 animate-fade-in animated-delay-400">
                         <span className="text-sm text-muted-foreground">{t("hero.followMe")} </span>
                         {[
-                            {icon: Gitlab, href:"https://gitlab.com/e.srumbo"},
+                            {icon: Github, href:"https://github.com/srumboalvarez"},
                             {icon: Linkedin, href:"https://www.linkedin.com/in/samuelrumbo"},
                         ].map((social, idx) =>(
                             <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
